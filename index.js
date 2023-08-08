@@ -23,7 +23,7 @@ const port = process.env.PORT || 5000;
 
 // MIDDLEWARE'S
 app.use(cors({
-    origin: 'http://localhost:5173', // Corrected URL without the trailing slash
+    origin: 'https://www.protontechnologies.com.pk', // Corrected URL without the trailing slash
     credentials: true, 
     "methods": "GET,HEAD,PUT,PATCH,POST,DELETE",
     "preflightContinue": true,
